@@ -1,0 +1,17 @@
+{
+  "groups": [
+    {
+      "name": "",
+      "type": "com.tul.orchestator.config.EngineConfig",
+      "sourceType": "com.tul.orchestator.config.EngineConfig"
+    },
+    {
+      "name": "spring.datasource",
+      "type": "javax.sql.DataSource",
+      "sourceType": "com.tul.orchestator.config.PostgresConfig",
+      "sourceMethod": "PostgresDataSource()"
+    }
+  ],
+  "properties": [],
+  "hints": []
+}
